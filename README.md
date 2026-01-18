@@ -1,4 +1,13 @@
-# Flutter Lite Camera
+# Flutter Lite Camera (Patched)
+
+> **Note on this Fork:** This is a fork of [Original Library](https://github.com/yushulx/flutter_lite_camera).
+> It includes specific patches for **Linux** that are not yet available in the upstream version.
+
+### Key Differences
+* **Bug Fix:** Add additional checks before capturing frames, especially the buffer size as any deviation easily crashes the app.
+* **Camera switching:** Add to the example a camera toggle button to switch between different cameras.
+
+### Maintenance Status: Passive
 
 `Flutter Lite Camera` is a lightweight Flutter plugin designed for capturing camera frames with a fixed resolution of **640x480** in **RGB888** format. The plugin supports **Windows**, **Linux**, and **macOS** platforms, making it ideal for building camera preview applications and performing image processing tasks.
 
